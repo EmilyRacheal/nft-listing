@@ -21,7 +21,7 @@ export const FooterBox = styled.footer`
 
     .item1-text {
       width: 90%;
-      font-size: 15px;
+      font-size: 0.9rem;
       line-height: 24px;
       color: var(--alturaTextColorTwo);
     }
@@ -39,7 +39,7 @@ export const FooterBox = styled.footer`
         color: var(--alturaTextColorTwo);
         margin-top: 20px;
         list-style: none;
-        font-size: 15px;
+        font-size: 0.9rem;
 
         :hover {
           text-decoration: underline;
@@ -69,13 +69,13 @@ export const FooterBox = styled.footer`
 
           .name {
             color: var(--alturaTextColorOne);
-            font-size: 13px;
+            font-size: 0.8rem;
             font-weight: 600;
           }
 
           .bid {
             color: var(--alturaTextColorTwo);
-            font-size: 15px;
+            font-size: 1rem;
             margin: 10px 0px;
           }
 
@@ -127,11 +127,13 @@ export const FooterBox = styled.footer`
       color: var(--alturaTextColorTwo);
       padding-right: 20px;
       border-right: 1px solid var(--borderColor);
+      font-size: 0.8rem;
     }
 
     .cc-menu {
       padding-left: 15px;
       color: var(--alturaTextColorTwo);
+      font-size: 0.8rem;
     }
 
     .cc-menu-box {
