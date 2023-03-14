@@ -28,8 +28,9 @@ export const NewestBox = styled.div`
 
   .newest-card-box {
     margin: 30px 0px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
   }
 `;
