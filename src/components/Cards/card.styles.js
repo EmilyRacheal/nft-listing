@@ -45,14 +45,14 @@ export const CardBox = styled.div`
 
     .name {
       color: var(--alturaTextColorOne);
-      font-size: 18px;
+      font-size: 1rem;
       font-weight: 600;
       margin-top: 20px;
     }
 
     .bid {
       color: var(--alturaTextColorTwo);
-      font-size: 16px;
+      font-size: 0.8rem;
       margin: 10px 0px;
     }
 
@@ -65,7 +65,7 @@ export const CardBox = styled.div`
 
     .price {
       color: var(--alutraPrimary);
-      font-size: 16px;
+      font-size: 0.9rem;
       font-weight: 600;
     }
   }
