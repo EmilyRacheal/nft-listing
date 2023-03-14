@@ -17,6 +17,8 @@ export const ButtonBox = styled.button`
     background-color: ${({ hoverBg }) => hoverBg || "transparent"};
     transition: all 0.5s;
   }
+
+  
 `;
 
 

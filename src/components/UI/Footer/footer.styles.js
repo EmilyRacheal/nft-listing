@@ -21,7 +21,7 @@ export const FooterBox = styled.footer`
 
     .item1-text {
       width: 90%;
-      font-size: 17px;
+      font-size: 15px;
       line-height: 24px;
       color: var(--alturaTextColorTwo);
     }
@@ -39,6 +39,7 @@ export const FooterBox = styled.footer`
         color: var(--alturaTextColorTwo);
         margin-top: 20px;
         list-style: none;
+        font-size: 15px;
 
         :hover {
           text-decoration: underline;
@@ -68,7 +69,7 @@ export const FooterBox = styled.footer`
 
           .name {
             color: var(--alturaTextColorOne);
-            font-size: 16px;
+            font-size: 13px;
             font-weight: 600;
           }
 
@@ -80,18 +81,18 @@ export const FooterBox = styled.footer`
 
           .price {
             color: var(--alutraPrimary);
-            font-size: 16px;
+            font-size: 15px;
             font-weight: 600;
             margin-top: 7px;
           }
 
           @media screen and (max-width: 550px) {
             .name {
-              font-size: 15px;
+              font-size: 12px;
             }
 
             .price{
-              font-size: 15px;
+              font-size: 12px;
             }
           }
         }
