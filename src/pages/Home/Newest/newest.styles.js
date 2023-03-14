@@ -28,9 +28,23 @@ export const NewestBox = styled.div`
 
   .newest-card-box {
     margin: 30px 0px;
+    grid-gap: 15px;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    /* justify-content: space-between; */
-    flex-wrap: wrap;
+    justify-items: center;
+    
+
+    @media screen and (max-width: 1200px) {
+      grid-template-columns: auto auto auto;
+    }
+
+    @media screen and (max-width: 800px) {
+      grid-template-columns: auto auto;
+    }
+
+    @media screen and (max-width: 500px) {
+      grid-template-columns: auto;
+    }
+
   }
 `;

@@ -59,7 +59,7 @@ const Navbar = () => {
         </div>
 
         <HiOutlineMenuAlt3
-          color="#58d0ea"
+          color="#f7971e"
           size={35}
           className="menu-icon"
           onClick={handleToggleMenu}

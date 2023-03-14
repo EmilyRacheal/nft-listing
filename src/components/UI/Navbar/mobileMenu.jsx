@@ -11,7 +11,7 @@ const MobileMenu = ({ toggle }) => {
     <MobileMenuBox>
       <div className="menu-body">
         <div className="close-btn">
-          <AiOutlineClose size={30} color="#58d0ea" onClick={toggle} />
+          <AiOutlineClose size={30} color="#f7971e" onClick={toggle} />
         </div>
 
         <div>

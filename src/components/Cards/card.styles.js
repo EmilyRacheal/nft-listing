@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const CardBox = styled.div`
   padding: 7px;
   background-color: var(--alturaSecondary);
-  width: 18%;
-  max-width: 300px;
-  min-width: 270px;
+  width: 100%;
+  max-width: 325px;
+  /* min-width: 270px; */
   border-radius: 12px;
   margin-top: 20px;
 
