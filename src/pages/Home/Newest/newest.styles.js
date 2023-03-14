@@ -17,11 +17,15 @@ export const NewestBox = styled.div`
 
     .header-btn {
       width: 120px;
+
+      @media screen and (max-width: 600px) {
+        width: 90px;
+      }
     }
 
     @media screen and (max-width: 600px) {
       .header-text {
-        font-size: 25px;
+        font-size: 1.5rem;
       }
     }
   }

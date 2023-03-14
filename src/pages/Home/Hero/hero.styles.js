@@ -70,7 +70,7 @@ export const HeroContainer = styled.div`
     @media screen and (max-width: 600px) {
       .head-text {
         width: 100%;
-        font-size: 35px;
+        font-size: 2rem;
       }
 
       .sub-text{
@@ -79,6 +79,8 @@ export const HeroContainer = styled.div`
         line-height: 22px;
       }
     }
+
+    
   }
 
   .bg-img {

@@ -28,7 +28,8 @@ const Explore = () => {
                 img={item.contract.openSea.imageUrl}
                 price={item.contract.openSea.floorPrice}
                 address={item.contract.address}
-                desc={item.contract.openSea.description}
+                desc={item.contract.opensea.description}
+                
               />
             );
           })}

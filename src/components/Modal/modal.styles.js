@@ -31,12 +31,12 @@ export const SModalWrapper = styled.div`
 export const SModal = styled.div`
   border-radius: 0.25rem;
   margin: 1.875rem;
-  width: 600px;
+  width: 500px;
   position: relative;
   z-index: 100;
   background-color: var(--modalBg);
   overflow-y: scroll;
-  height: 600px;
+  height: 500px;
 
   .header-title {
     display: flex;
@@ -64,7 +64,7 @@ export const SModal = styled.div`
 
   .modal-img {
     width: 100%;
-    height: 450px;
+    height: 350px;
   }
 
   .bid-list {

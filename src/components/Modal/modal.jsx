@@ -31,7 +31,7 @@ const Modal = ({ isVisible, hideModal, name, price, desc, img, address }) => {
               <div className="header-title">
                 <p className="title">{`Created ${name} on Feb 2023`}</p>
                 <AiOutlineClose
-                  size={40}
+                  size={23}
                   color="#fff"
                   onClick={hideModal}
                   className="icon"
@@ -65,7 +65,7 @@ const Modal = ({ isVisible, hideModal, name, price, desc, img, address }) => {
                   <div className="price-box">
                     <p className="price">{price || "0.3452wETH"}</p>
 
-                    <BsFillSuitHeartFill color="#58d0ea" size={20} />
+                    <BsFillSuitHeartFill color="#f7971e" size={20} />
                   </div>
                 </div>
 
@@ -74,8 +74,8 @@ const Modal = ({ isVisible, hideModal, name, price, desc, img, address }) => {
 
               <div className="modal-footer">
                 <Button
-                  height="50px"
-                  width="160px"
+                  height="40px"
+                  width="145px"
                   text="Purchase Here"
                   onClick={handleOpenLink}
                 />
