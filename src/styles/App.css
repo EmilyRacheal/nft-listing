@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.loader-box{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
 .content-loading {
   display: inline-block;
   width: 120px;
@@ -16,8 +24,8 @@
   height: 23px;
   margin: 8px;
   border-radius: 50%;
-  border: 4px solid #ff5f13;
-  border-color: #ff5f13 transparent #ff5f13 transparent;
+  border: 4px solid #f7971e;
+  border-color: #f7971e transparent #f7971e transparent;
   animation: lds-dual-ring 1.2s linear infinite;
 }
 
