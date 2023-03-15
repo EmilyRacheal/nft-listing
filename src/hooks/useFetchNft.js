@@ -18,15 +18,23 @@ alchemy.core.getTokenBalances(contractAddress).then(console.log);
 
 export const useFetch = () => {
   const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
+    setLoading(true);
     alchemy.nft
       .getNftsForOwner(contractAddress)
-      .then((res) => setData(res.ownedNfts))
-      .catch((err) => console.log(err));
+      .then((res) => {
+        setData(res.ownedNfts);
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.log(err);
+        setLoading(false);
+      });
   }, []);
 
-  return { data };
+  return { data, loading };
 };
 // Get all the NFTs owned by an address
 
